@@ -60,14 +60,17 @@ async def start(_, msg):
     )
 
 
-gd_buttons = [              
+gd_buttons = [    
+    [
             InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
+]
+[
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/SHADOWS_Network01"),    
         ]
         [
             InlineKeyboardButton("ʀɪᴠᴀʟs ᴋɪ ᴍᴋᴄ", callback_data="dil_back")
         ]
-
+]
 
 # ------------------------------------------------------------------------------- #
 
