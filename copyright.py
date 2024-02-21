@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME","ShadowsCopyrightbot")
 
-OWNER_ID = "6758236533"
+OWNER_ID = "5054912509"
 # -------------------------------------------------------------------------------------
 
 API_ID = "21279292" # 
@@ -54,7 +54,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/7f8ebddf56559ac69d31b.jpg",
+        photo="https://graph.org/file/2237358354792145f56b8.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -64,6 +64,9 @@ gd_buttons = [
         [
             InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/SHADOWS_Network01"),    
+        ]
+        [
+            InlineKeyboardButton("ʀɪᴠᴀʟs ᴋɪ ᴍᴋᴄ", callback_data="dil_back")
         ]
         ]
 
