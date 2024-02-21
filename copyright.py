@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME","ShadowsCopyrightbot")
 
-OWNER_ID = "5054912509"
+OWNER_ID = "6758236533"
 # -------------------------------------------------------------------------------------
 
 API_ID = "21279292" # 
