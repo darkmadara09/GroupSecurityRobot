@@ -66,7 +66,7 @@ gd_buttons = [
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/HEROKUFREECC"), 
         ],
     [
-            InlineKeyboardButton("ʀɪᴠᴀʟs ᴋɪ ᴍᴋᴄ", callback_data="dil_back"),
+            InlineKeyboardButton("ʀɪᴠᴀʟs ᴋɪ ᴍᴋᴄ", callback_data="copyright_back"),
         ],
 ]
 
