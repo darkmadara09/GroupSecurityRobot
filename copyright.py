@@ -38,8 +38,7 @@ app = Client('my_bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 start_txt = """<b> 🤖 ɢʀᴏᴜᴘ sᴇᴄᴜʀɪᴛʏ ʀᴏʙᴏᴛ 🛡️ </b>
 
 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ Sʜᴀᴅᴏᴡ Sᴇᴄᴜʀɪᴛʏ Rᴏʙᴏᴛ , ʏᴏᴜʀ sᴛᴜᴘɪᴅ ᴛʜɪɴɢs ᴡɪʟʟ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ʙʏ ᴛʜɪs ʙᴏᴛ ! ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ᴇɴsᴜʀᴇ ᴀ sᴀғᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɪɴᴛᴀɪɴ ᴘᴇᴀᴄᴇ !
-
-ɴᴏᴛᴇ - 𝟺 ᴄʜᴀᴀᴠᴀɴɪ ɢʜᴏᴅᴇ ᴘᴇ ʀɪᴠᴀʟs ʜᴜᴍᴀʀᴇ ʟᴏᴅᴇ ᴘᴇ"""
+"""
 
 @app.on_message(filters.command("start"))
 async def start(_, msg):
