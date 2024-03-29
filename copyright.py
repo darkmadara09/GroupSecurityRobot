@@ -15,9 +15,9 @@ logging.basicConfig(level=logging.INFO)
 
 # -------------------------------------------------------------------------------------
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME","ShadowsCopyrightbot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","DrakunCopyrightbot")
 
-OWNER_ID = "6758236533"
+OWNER_ID = "5586770042"
 # -------------------------------------------------------------------------------------
 
 API_ID = "21279292" # 
@@ -37,8 +37,7 @@ app = Client('my_bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 start_txt = """<b> 🤖 ɢʀᴏᴜᴘ sᴇᴄᴜʀɪᴛʏ ʀᴏʙᴏᴛ 🛡️ </b>
 
-ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ Sʜᴀᴅᴏᴡ Sᴇᴄᴜʀɪᴛʏ Rᴏʙᴏᴛ , ʏᴏᴜʀ sᴛᴜᴘɪᴅ ᴛʜɪɴɢs ᴡɪʟʟ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ʙʏ ᴛʜɪs ʙᴏᴛ ! ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ᴇɴsᴜʀᴇ ᴀ sᴀғᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɪɴᴛᴀɪɴ ᴘᴇᴀᴄᴇ !
-"""
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ Sʜᴀᴅᴏᴡ Sᴇᴄᴜʀɪᴛʏ Rᴏʙᴏᴛ , ʏᴏᴜʀ sᴛᴜᴘɪᴅ ᴛʜɪɴɢs ᴡɪʟʟ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ʙʏ ᴛʜɪs ʙᴏᴛ ! ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ᴇɴsᴜʀᴇ ᴀ sᴀғᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɪɴᴛᴀɪɴ ᴘᴇᴀᴄᴇ !"""
 
 @app.on_message(filters.command("start"))
 async def start(_, msg):
@@ -62,10 +61,10 @@ async def start(_, msg):
 gd_buttons = [              
         [
             InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/HEROKUFREECC"), 
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Naruto_Shippuden_Hindi_666"), 
         ],
     [
-            InlineKeyboardButton("ʀɪᴠᴀʟs ᴋɪ ᴍᴋᴄ", callback_data="copyright_back"),
+            InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="copyright_back"),
         ],
 ]
 
