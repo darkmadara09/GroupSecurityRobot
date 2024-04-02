@@ -46,7 +46,7 @@ async def start(_, msg):
           InlineKeyboardButton("ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ", url=f"https://t.me/Main_Crunch_Roll_Hindii")
         ],
         [
-          InlineKeyboardButton("", callback_data="dil_back")
+          InlineKeyboardButton("ᴀɴɪᴍᴇ ᴅɪsᴄᴜss ɢʀᴏᴜᴘ", url=f"https://t.me/Friends_Zone_l")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -68,7 +68,7 @@ async def start(_, msg):
           InlineKeyboardButton("ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ", url=f"https://t.me/Main_Crunch_Roll_Hindii")
         ],
         [
-          InlineKeyboardButton("", callback_data="dil_back")
+          InlineKeyboardButton("ᴀɴɪᴍᴇ ᴅɪsᴄᴜss ɢʀᴏᴜᴘ", url=f"https://t.me/Friends_Zone_l")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -148,7 +148,7 @@ async def activevc(_, message: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["porn", "xxx", "sex", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
+FORBIDDEN_KEYWORDS = ["", "", "", "", "", "", "", "", "", "", "", "", ""]
 
 @app.on_message()
 async def handle_message(client, message):
