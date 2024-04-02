@@ -46,7 +46,7 @@ async def start(_, msg):
           InlineKeyboardButton("ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ", url=f"https://t.me/Main_Crunch_Roll_Hindii")
         ],
         [
-          InlineKeyboardButton("ᴀɴɪᴍᴇ ᴅɪsᴄᴜss ɢʀᴏᴜᴘ", url=f"https://t.me/Friends_Zone_l")
+          InlineKeyboardButton("ᴀɴɪᴍᴇ ᴅɪsᴄᴜss ɢʀᴏᴜᴘ", url=f"https://t.me/The_Sector_5")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -68,7 +68,7 @@ async def start(_, msg):
           InlineKeyboardButton("ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ", url=f"https://t.me/Main_Crunch_Roll_Hindii")
         ],
         [
-          InlineKeyboardButton("ᴀɴɪᴍᴇ ᴅɪsᴄᴜss ɢʀᴏᴜᴘ", url=f"https://t.me/Friends_Zone_l")
+          InlineKeyboardButton("ᴀɴɪᴍᴇ ᴅɪsᴄᴜss ɢʀᴏᴜᴘ", url=f"https://t.me/The_Sector_5")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
