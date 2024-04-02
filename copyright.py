@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 
 # -------------------------------------------------------------------------------------
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME","DrakunCopyrightbot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","MainCrunchyrollBot")
 
 OWNER_ID = "5586770042"
 # -------------------------------------------------------------------------------------
