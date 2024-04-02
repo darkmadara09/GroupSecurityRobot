@@ -35,24 +35,46 @@ app = Client('my_bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 # -------------------------------------------------------------------------------------
 
 
-start_txt = """<b> 🤖 ɢʀᴏᴜᴘ sᴇᴄᴜʀɪᴛʏ ʀᴏʙᴏᴛ 🛡️ </b>
+start_txt = """<b>  ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ  </b>
 
-ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ Sʜᴀᴅᴏᴡ Sᴇᴄᴜʀɪᴛʏ Rᴏʙᴏᴛ , ʏᴏᴜʀ sᴛᴜᴘɪᴅ ᴛʜɪɴɢs ᴡɪʟʟ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ʙʏ ᴛʜɪs ʙᴏᴛ ! ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ᴇɴsᴜʀᴇ ᴀ sᴀғᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɪɴᴛᴀɪɴ ᴘᴇᴀᴄᴇ !"""
+ᴡᴇ ᴘʀᴇsᴇɴᴛs "ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ" ᴛᴏ ᴘʀᴏᴠɪᴅɪɴɢ ɴᴏɴ sᴛᴏᴘ ᴀɴɪᴍᴇ ᴏғ ᴀʟʟ ᴛɪᴍᴇ , ᴡᴇ ʜᴀᴠᴇ ᴡᴏʀᴋᴇᴅ ʜᴀʀᴅ ᴛᴏ ᴇɴꜱᴜʀᴇ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ᴜᴘʟᴏᴀᴅ ꜱᴄʜᴇᴅᴜʟᴇ, ᴡᴇᴇᴋʟʏ ᴜᴘᴅᴀᴛᴇꜱ, ᴀʙɪʟɪᴛʏ ᴛᴏ ʀᴇQᴜᴇꜱᴛ ᴀɴɪᴍᴇ, ᴜꜱᴇʀ ꜰʀɪᴇɴᴅʟʏ ɪɴᴛᴇʀꜰᴀᴄᴇ, ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴀɴᴅ ᴏɴɢᴏɪɴɢ  ᴀɴɪᴍᴇ ᴜᴘʟᴏᴀᴅꜱ, ᴅɪꜱᴄᴜꜱꜱɪᴏɴ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴏ ᴍᴜᴄʜ ᴍᴏʀᴇ."""
 
 @app.on_message(filters.command("start"))
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ", url=f"https://t.me/Main_Crunch_Roll_Hindii")
         ],
         [
-          InlineKeyboardButton("ʀɪᴠᴀʟs ᴋɪ ᴍᴋᴄ", callback_data="dil_back")
+          InlineKeyboardButton("", callback_data="dil_back")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/2237358354792145f56b8.jpg",
+        photo="https://graph.org/file/9851c002b99d2dc456392.jpg",
+        caption=start_txt,
+        reply_markup=reply_markup
+    )
+
+start_txt = """<b>  ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ  </b>
+
+ᴡᴇ ᴘʀᴇsᴇɴᴛs "ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ" ᴛᴏ ᴘʀᴏᴠɪᴅɪɴɢ ɴᴏɴ sᴛᴏᴘ ᴀɴɪᴍᴇ ᴏғ ᴀʟʟ ᴛɪᴍᴇ , ᴡᴇ ʜᴀᴠᴇ ᴡᴏʀᴋᴇᴅ ʜᴀʀᴅ ᴛᴏ ᴇɴꜱᴜʀᴇ ᴀ ᴄᴏɴꜱɪꜱᴛᴇɴᴛ ᴜᴘʟᴏᴀᴅ ꜱᴄʜᴇᴅᴜʟᴇ, ᴡᴇᴇᴋʟʏ ᴜᴘᴅᴀᴛᴇꜱ, ᴀʙɪʟɪᴛʏ ᴛᴏ ʀᴇQᴜᴇꜱᴛ ᴀɴɪᴍᴇ, ᴜꜱᴇʀ ꜰʀɪᴇɴᴅʟʏ ɪɴᴛᴇʀꜰᴀᴄᴇ, ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴀɴᴅ ᴏɴɢᴏɪɴɢ  ᴀɴɪᴍᴇ ᴜᴘʟᴏᴀᴅꜱ, ᴅɪꜱᴄᴜꜱꜱɪᴏɴ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴏ ᴍᴜᴄʜ ᴍᴏʀᴇ."""
+
+@app.on_message(filters.command("anime"))
+async def start(_, msg):
+    buttons = [
+        [ 
+          InlineKeyboardButton("ᴍᴀɪɴ ᴄʀᴜɴᴄʜʏʀᴏʟʟ ʜɪɴᴅɪ", url=f"https://t.me/Main_Crunch_Roll_Hindii")
+        ],
+        [
+          InlineKeyboardButton("", callback_data="dil_back")
+        ]]
+    
+    reply_markup = InlineKeyboardMarkup(buttons)
+    
+    await msg.reply_photo(
+        photo="https://graph.org/file/9851c002b99d2dc456392.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
