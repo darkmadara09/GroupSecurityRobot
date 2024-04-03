@@ -122,14 +122,6 @@ def size_formatter(bytes: int) -> str:
     return f"{bytes:.2f} {unit}"
 
 
-@app.on_message(filters.command('users'))
-async def get_users(client, message):
-    msg = await client.send_message(chat_id=message.chat.id, reply_text)
-    users = await full_userbase()
-    await msg.edit(f"{len(users)} users are using this bot")
-
-
-
 @app.on_message(filters.command("ping"))
 async def activevc(_, message: Message):
     uptime = time_formatter((time.time() - start_time) * 1000)
