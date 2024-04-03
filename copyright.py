@@ -124,7 +124,7 @@ def size_formatter(bytes: int) -> str:
 
 @app.on_message(filters.command('users'))
 async def get_users(client, message):
-    msg = await client.send_message(chat_id=message.chat.id, text=WAIT_MSG)
+    msg = await client.send_message(chat_id=message.chat.id, reply_text)
     users = await full_userbase()
     await msg.edit(f"{len(users)} users are using this bot")
 
